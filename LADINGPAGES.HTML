@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@1,75..100,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-conteudo menu-conteudo">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">introdução</a></li>
+                    <li><a href="#grid1">Grade</a></li>
+                    <li><a href="#galeria">galeria</a></li>
+                    <li><a href="#grid2">Grade 2</a></li>
+                    <li><a href="#preços">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-espaco"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-conteudo intro-conteudo">
+            <div class="intro-esquerda">
+                <h2>
+                    Janeiro Consegue ser melhor 01
+                </h2>
+                <p>
+                    Um texto é uma manifestação da linguagem. Pode ser definido como tudo aquilo que é dito por um
+                    emissor e
+                    interpretado por um receptor. Dessa forma, tudo que é interpretável é um texto. Outra forma de
+                    conceituação
+                    é pensar que tudo aquilo que produz um sentido completo, que seja uma mensagem compreensível, é um
+                    texto.
+                </p>
+            </div>
+            <div class="intro-direita">
+                <img src="CSS/img/undraw_stars_re_6je7.svg">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-conteudo top3">
+            <h2>Top 3 coisas</h2>
+            <p>Então, que seja doce. Repito todas as manhãs, ao abrir as janelas para deixar entrar o sol ou cinza dos
+                dias, bem assim: que seja doce. Quando há sol, e esse sol bate na minha cara amassada do sono ou da
+                insônia, contemplando as partículas de poeira soltas no ar, feito um pequeno universo, repito sete vezes
+                para dar sorte: que seja doce que seja doce que seja doce e assim por diante.</p>
+            <p>Tô me afastando de tudo que me atrasa, me engana, me segura e me retém. Fui ser feliz, e não volto Apenas
+                se ama, na tranqüilidade de nada exigir em troca</p>
+            <p>Tenho medo de já ter perdido muito tempo. Tenho medo que seja cada vez mais difícil. Tenho medo de
+                endurecer, de me fechar, de me encarapaçar dentro de uma solidão-escudo. Tenho aprendido coisas que
+                ainda
+                estão vagas dentro de mim, mal comecei a elabora-las. São coisas mais adultas,acho. Tem sido bom.</p>
+        </div>
+    </section>
+
+    <section id="grid1" class="grid1 main-bg section">
+        <div class="main-conteudo grid1conteudo">
+            <h2 class="grid-main-heading">Grade</h2>
+            <p class="grid-description">Coisa rapida aqui</p>
+            <div class="grid">
+                <article>
+                    <h3>teste 1</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 2</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores</p>
+                </article>
+                <article>
+                    <h3>teste 3</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="grid1 white-bg section">
+        <div class="main-conteudo grid1conteudo">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Coisa rapida aqui</p>
+            <div class="grid">
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random imagem from unsplash" />
+                </div>
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random imagem from unsplash" />
+
+                </div>
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random imagem from unsplash" />
+
+                </div>
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random imagem from unsplash" />
+
+                </div>
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random imagem from unsplash" />
+
+                </div>
+                <div class="galeriaImagem">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random imagem from unsplash" />
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid2" class="grid1 main-bg section">
+        <div class="main-conteudo grid1conteudo">
+            <h2 class="grid-main-heading">Grade 2</h2>
+            <p class="grid-description">Coisa rapida aqui</p>
+            <div class="grid">
+                <article>
+                    <h3>teste 1</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 2</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores</p>
+                </article>
+                <article>
+                    <h3>teste 3</h3>
+                    <p>Lorem ipsum dolor sit amer consectetur adipiscing elit Deitis cum delectus moestias atque doribus
+                        novis laudantium esse ut non comodi maxime distinctio veritatis unde reprehenerit minus ad
+                        dolores provident maiores</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="preços" class="white-bg section">
+        <div class="main-conteudo top3">
+            <h2>Preços</h2>
+            <p>Então, que seja doce. Repito todas as manhãs, ao abrir as janelas para deixar entrar o sol ou cinza dos
+                dias, bem assim: que seja doce. Quando há sol, e esse sol bate na minha cara amassada do sono ou da
+                insônia, contemplando as partículas de poeira soltas no ar, feito um pequeno universo, repito sete vezes
+                para dar sorte: que seja doce que seja doce que seja doce e assim por diante.</p>
+            <p>Tô me afastando de tudo que me atrasa, me engana, me segura e me retém. Fui ser feliz, e não volto Apenas
+                se ama, na tranqüilidade de nada exigir em troca</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>
+                        Tabela de Preços
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th>Titulo 1</th>
+                            <th>Titulo 2</th>
+                            <th>Titulo 3</th>
+                            <th>Titulo 1</th>
+                            <th>Titulo 2</th>
+                            <th>Titulo 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="intro main-bg section">
+        <div class="main-conteudo intro-conteudo">
+            <div class="intro-esquerda">
+                <h2>
+                    Contato
+                </h2>
+                <p>
+                    Um texto é uma manifestação da linguagem. Pode ser definido como tudo aquilo que é dito por um
+                    emissor e
+                    interpretado por um receptor. Dessa forma, tudo que é interpretável é um texto. Outra forma de
+                    conceituação
+                    é pensar que tudo aquilo que produz um sentido completo, que seja uma mensagem compreensível, é um
+                    texto.
+                </p>
+            </div>
+            <div class="intro-direita">
+                <img src="CSS/img/undraw_stars_re_6je7.svg">
+            </div>
+
+
+            <div class="formulario">
+                <fieldset class="form-grid">
+                    <legend>Contato</legend>
+                    <div class="form-group">
+                        <label for="Primeiro nome">Primeiro nome</label>
+                        <input type="text" name="primeiro-nome" id="primeiro-nome" placeholder="seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Ultimo nome">Ultimo nome</label>
+                        <input type="text" name="ultimo-nome" id="ultimo-nome" placeholder="ultimo name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="seu e-mail">
+                    </div>
+
+                    <div class="form-group full">
+                        <label for="mensagem">mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                            placeholder="sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full">
+                        <button type="submit">Enviar</button>
+
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape" class="rodape white-bg">
+        <p>
+            <a rel="nofollow" target="_blank" href="https://www.instagram.com/iam__peedro/">Feito com muita paciencia e
+                amor <span class="coração">❤</span> por PEDRINHOS GAMEPLAYS___SASUKEMATADOR</a>
+        </p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
